@@ -1,18 +1,17 @@
 
 import './App.css'
-import Saludo from './Components/Saludo'
+import Header from './Components/Header'
+import Home from './Components/Home'
 
 
 function App() {
-  
-const estudiante='Emmanuel'
+
 
   return (
     <>
-     <Saludo nombre={estudiante}/>
+      <Header/>
+      <Home/>
     </>
-    
-    
   )
 }
 
