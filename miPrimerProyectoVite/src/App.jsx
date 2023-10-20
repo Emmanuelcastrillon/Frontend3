@@ -1,18 +1,15 @@
-
-import './App.css'
-import Header from './Components/Header'
-import Home from './Components/Home'
+import Producto from "./Components/Producto"
 
 
-function App() {
-
-
-  return (
-    <>
-      <Header/>
-      <Home/>
-    </>
-  )
+function App(){
+  
+return(
+  <>
+    <Producto/>
+  </>
+  
+)
 }
-
 export default App
+
+
