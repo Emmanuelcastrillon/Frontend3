@@ -1,11 +1,12 @@
-import Producto from "./Components/Producto"
+
+import Tarea from "./Components/Tarea"
 
 
 function App(){
   
 return(
   <>
-    <Producto/>
+    <Tarea/>
   </>
   
 )
