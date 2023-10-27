@@ -1,9 +1,13 @@
 
-
+import { useState } from 'react'
 import Card from './Card'
 import homeStyles from './Home.module.css'
+import Formulario from './Formulario'
 console.log(homeStyles)
 const Home = () => {
+
+  const [pedidos,setPedidos]=useState([])
+
     let pizzas = [
         { id: 2, tipo: 'Fugazza', precio: '$1250', img: 'https://cdn0.recetasgratis.net/es/posts/7/0/2/pizza_fugazza_7207_600.webp' },
         { id: 3, tipo: 'Napolitana', precio: '$1350', img: 'https://img-global.cpcdn.com/recipes/5fb5d55852fa8d06/640x640sq70/photo.webp' },
@@ -12,7 +16,12 @@ const Home = () => {
     ]
   return (
     <div className={homeStyles.home}>
-        {pizzas.map(pizza => <Card key={pizza.id} plato={pizza} />)}
+        <h3 className={homeStyles.tituloListado}>Pedido</h3>
+        <ul>
+          {pedidos.map(pedido=> <li className={homeStyles.listado} key={pedido.id}>{pedido.tipo}-{pedido.contador}</li>)}
+        </ul>
+        {pedidos.length > 0 && <Formulario/>}
+        {pizzas.map(pizza => <Card key={pizza.id} plato={pizza} setPedidos={setPedidos}/>)}
     </div>
   )
 }

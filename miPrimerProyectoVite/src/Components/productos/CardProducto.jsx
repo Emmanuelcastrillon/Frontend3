@@ -1,4 +1,4 @@
-import estiloCard from "./Producto.module.css"
+import estiloCard from "../tareas/Producto.module.css"
 
 const CardProducto=({plantilla})=>{
 

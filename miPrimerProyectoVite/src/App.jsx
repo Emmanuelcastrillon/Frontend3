@@ -1,12 +1,12 @@
 
-import Tarea from "./Components/Tarea"
+import Home from "./Components/pizzas/Home"
 
 
 function App(){
   
 return(
   <>
-    <Tarea/>
+    <Home/>
   </>
   
 )

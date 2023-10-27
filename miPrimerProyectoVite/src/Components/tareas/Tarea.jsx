@@ -9,11 +9,11 @@ const Tarea=()=>{
         <div className={estiloTarea.contenedor}>
              <h1 className={estiloTarea.titulo}>Mis tareas</h1>    
              <div className={estiloTarea.tareas}>
-            {misTareas.map((tarea)=>{
-                return(
+                {misTareas.map((tarea)=>{
+                    return(
                     <CardTarea  key={tarea} nombreTarea={tarea} setTareasHechas={setTareasHechas}/> 
-                )
-            })} 
+                    )
+                })} 
             </div>
             <div className={estiloTarea.lista}>
                 <h2 className={estiloTarea.tituloTareasHechas}>Tareas hechas</h2>
@@ -23,7 +23,7 @@ const Tarea=()=>{
                             <li key={tareaHecha}>{tareaHecha}</li>
                         )
                     })}
-              </ul> 
+                </ul> 
             </div>
             
         </div>

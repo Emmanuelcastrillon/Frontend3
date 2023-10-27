@@ -1,5 +1,5 @@
-import CardProducto from "./cardProducto";
-import estilos from "./Producto.module.css"
+import CardProducto from "./CardProducto";
+import estilos from "../tareas/Producto.module.css"
 
 const Producto=()=>{
     const productos = [
