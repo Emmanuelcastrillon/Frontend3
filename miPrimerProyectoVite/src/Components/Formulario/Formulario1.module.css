@@ -1,0 +1,43 @@
+*{
+    background-color:black;
+   
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin: 0vh 0vw 0vh 43vw;
+    
+}
+.titulo{
+    color: white;
+    width: 16vw;
+    margin: 0vh 0vw 4vh 1vw;
+}
+.inputs{
+    margin: 2vh 0vw 1vh 0vw;
+    height: 4vh;
+    width: 16vw;
+    
+}
+.botonRegistro{
+    width: 10vw;
+    margin: 2vh 0vw 0vh 3vw;
+}
+.tituloDeRegistro{
+    width: 22vw;
+    color: green;
+    margin:4vh 0vw 0vh 42vw;
+  
+}
+.mensajeError{
+    color: red;
+    margin:4vh 0vw 0vh 42vw
+}
+.contenedorUsuarios{
+    color: green;
+    margin:4vh 0vw 0vh 43vw
+}
+.listaUsuarios{
+    color:white;
+    margin:4vh 0vw 0vh 46vw
+}

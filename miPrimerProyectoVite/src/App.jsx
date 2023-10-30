@@ -1,12 +1,14 @@
+import ComponenteFormulario from "./Components/Formulario/ComponenteFormulario"
 
-import Home from "./Components/pizzas/Home"
+
+
 
 
 function App(){
   
 return(
   <>
-    <Home/>
+    <ComponenteFormulario/>
   </>
   
 )
