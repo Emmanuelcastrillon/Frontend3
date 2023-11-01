@@ -1,14 +1,10 @@
-import ComponenteFormulario from "./Components/Formulario/ComponenteFormulario"
-
-
-
-
+import Doctores from "./Components/PracticaParcial1/Doctores"
 
 function App(){
   
 return(
   <>
-    <ComponenteFormulario/>
+    <Doctores/>
   </>
   
 )
