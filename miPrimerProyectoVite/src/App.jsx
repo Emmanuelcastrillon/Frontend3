@@ -1,10 +1,10 @@
-import Doctores from "./Components/PracticaParcial1/Doctores"
+import Repuesto from "./Components/Repuestos/Repuesto"
 
 function App(){
   
 return(
   <>
-    <Doctores/>
+    <Repuesto/>
   </>
   
 )
