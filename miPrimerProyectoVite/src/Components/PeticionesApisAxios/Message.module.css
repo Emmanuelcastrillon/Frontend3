@@ -1,0 +1,19 @@
+.lista{
+    margin: 0vh 0vw 0vh 30vw;
+    width: 40vw;
+    border: 2px solid white;
+   
+}
+.subtitulo{
+    color:green;
+    font-weight: 500;
+    
+}
+.mensaje{
+    color: blue;
+   
+}
+.boton{
+    margin: 5vh 0vw 0vh 46vw;
+    background-color: green;
+}

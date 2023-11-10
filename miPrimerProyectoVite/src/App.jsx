@@ -1,10 +1,14 @@
-import Repuesto from "./Components/Repuestos/Repuesto"
+import CatApi from "./Components/Clase10_fetch_axios/CatApi"
+import DogApi from "./Components/Clase10_fetch_axios/DogApi"
+import Message from "./Components/PeticionesApisAxios/Message"
+
+
 
 function App(){
   
 return(
   <>
-    <Repuesto/>
+    <Message/>
   </>
   
 )
